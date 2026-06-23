@@ -1,0 +1,130 @@
+{
+  "profile": {
+    "name": "Manroop Singh",
+    "title": "Software Developer | GSoC 2026 Contributor | Full Stack & Mobile App Developer",
+    "intro": "I build scalable web and mobile products, modernize frontend systems, and contribute to open-source healthcare technology with a focus on maintainable React, TypeScript, and full-stack architecture.",
+    "email": "manroopsingh2005a@gmail.com",
+    "phone": "+91-6280236063",
+    "location": "Gwalior, India",
+    "github": "https://github.com/your-username",
+    "githubLabel": "github.com/your-username",
+    "linkedin": "https://www.linkedin.com/in/your-username",
+    "linkedinLabel": "linkedin.com/in/your-username"
+  },
+  "seo": {
+    "title": "Manroop Singh | Software Developer Portfolio",
+    "description": "Portfolio of Manroop Singh, a GSoC 2026 Contributor, full-stack developer, and mobile app developer specializing in React, TypeScript, React Native, and backend systems.",
+    "keywords": [
+      "Manroop Singh",
+      "Software Developer",
+      "GSoC 2026",
+      "OpenELIS Global",
+      "React",
+      "TypeScript",
+      "React Native",
+      "Full Stack Developer"
+    ]
+  },
+  "navItems": [
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "stats": [
+    { "value": "GSoC", "label": "2026 Contributor" },
+    { "value": "70%", "label": "Faster image loading" },
+    { "value": "50%", "label": "Faster task execution" }
+  ],
+  "about": {
+    "title": "Building modern products with open-source discipline.",
+    "paragraphs": [
+      "I am pursuing a B.Tech in Information Technology from ABV IIITM Gwalior, where I focus on software engineering, scalable product development, and applied systems thinking. My work spans frontend modernization, mobile apps, backend systems, and collaborative open-source development.",
+      "I enjoy turning complex product requirements into reliable interfaces and maintainable code. Recently, that has meant improving React and TypeScript systems for healthcare workflows while also building full-stack and mobile projects with strong user-facing performance."
+    ],
+    "focusAreas": [
+      "Frontend modernization with React and TypeScript",
+      "Mobile app development with React Native and Expo",
+      "Backend APIs with Node.js, Express, and databases",
+      "Open-source collaboration through GitHub reviews"
+    ]
+  },
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "icon": "code",
+      "items": ["C", "C++", "TypeScript", "JavaScript", "Python", "Swift"]
+    },
+    {
+      "title": "Frontend",
+      "icon": "smartphone",
+      "items": ["React", "React Native", "Next.js", "Expo", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
+    },
+    {
+      "title": "Backend & Database",
+      "icon": "database",
+      "items": ["Node.js", "Express.js", "REST APIs", "MongoDB", "PostgreSQL", "Redis", "QdrantDB"]
+    },
+    {
+      "title": "Tools",
+      "icon": "wrench",
+      "items": ["Git", "GitHub", "Docker", "Docker Hub", "VS Code"]
+    },
+    {
+      "title": "Cloud",
+      "icon": "cloud",
+      "items": ["AWS", "Azure"]
+    }
+  ],
+  "experience": {
+    "company": "OpenELIS Global",
+    "program": "Google Summer of Code 2026",
+    "role": "Frontend Modernization Contributor",
+    "duration": "05/2026 - Present",
+    "highlights": [
+      "Selected as a Google Summer of Code 2026 Contributor at OpenELIS Global.",
+      "Contributing to frontend modernization and performance optimization initiatives.",
+      "Migrated React frontend components from JavaScript to TypeScript, improving type safety, maintainability, and developer experience.",
+      "Refactored shared UI components, utilities, and application modules while ensuring compatibility with the existing healthcare workflow system.",
+      "Enhanced frontend performance through code optimization, reducing technical debt and supporting long-term scalability.",
+      "Collaborated with international mentors and open-source contributors using Git, GitHub, code reviews, testing, and agile development practices."
+    ]
+  },
+  "projects": [
+    {
+      "name": "PromptX",
+      "role": "Mobile App Developer",
+      "duration": "05/2025 - 06/2025",
+      "github": "https://github.com/your-username/promptx",
+      "liveDemo": "#",
+      "tech": ["React Native", "TypeScript", "Expo", "PostgreSQL", "Prisma"],
+      "highlights": [
+        "Released a marketplace where users can buy and sell system and user prompts for AI.",
+        "Added Google OAuth authentication and Redux-based state management.",
+        "Reduced image loading times by 70% using CDN caching with Cloudinary.",
+        "Integrated a DeepSeek-R1 chatbot with 8 dedicated AI action buttons for targeted tasks like GeneralAI and SoftwareAI.",
+        "Improved task execution speed by 50%."
+      ]
+    },
+    {
+      "name": "Open Course",
+      "role": "Full Stack Developer",
+      "duration": "08/2024 - 01/2025",
+      "github": "https://github.com/your-username/open-course",
+      "liveDemo": "#",
+      "tech": ["React", "Redux", "JavaScript", "Node.js", "Express.js", "MongoDB"],
+      "highlights": [
+        "Built a crowdsourced learning platform where users can contribute by adding videos to existing courses.",
+        "Enabled dynamic course updates and real-time synchronization across contributors.",
+        "Developed an interview preparation section with 50+ practice questions."
+      ]
+    }
+  ],
+  "education": {
+    "degree": "B.Tech in Information Technology",
+    "school": "ABV IIITM Gwalior",
+    "duration": "08/2023 - 04/2028",
+    "location": "Gwalior, India"
+  }
+}

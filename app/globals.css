@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(62, 231, 214, 0.28);
+  color: white;
+}
+
+@layer components {
+  .button-primary {
+    @apply inline-flex min-h-11 items-center gap-2 rounded bg-cyan px-5 py-3 text-sm font-semibold text-ink shadow-[0_12px_30px_rgba(62,231,214,0.18)] transition duration-300 hover:-translate-y-1 hover:bg-white hover:shadow-[0_18px_42px_rgba(62,231,214,0.26)] focus:outline-none focus:ring-2 focus:ring-cyan focus:ring-offset-2 focus:ring-offset-ink;
+  }
+
+  .button-secondary {
+    @apply inline-flex min-h-11 items-center gap-2 rounded border border-line bg-white/[0.055] px-5 py-3 text-sm font-semibold text-white transition duration-300 hover:-translate-y-1 hover:border-cyan/45 hover:bg-white/[0.09] hover:shadow-glow focus:outline-none focus:ring-2 focus:ring-cyan focus:ring-offset-2 focus:ring-offset-ink;
+  }
+
+  .icon-link {
+    @apply grid h-11 w-11 place-items-center rounded border border-line bg-white/[0.055] text-slate-200 transition duration-300 hover:-translate-y-1 hover:rotate-3 hover:border-cyan/45 hover:text-cyan focus:outline-none focus:ring-2 focus:ring-cyan focus:ring-offset-2 focus:ring-offset-ink;
+  }
+
+  .field {
+    @apply rounded border border-line bg-ink/75 px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-500 focus:border-cyan/70 focus:ring-2 focus:ring-cyan/20;
+  }
+
+  .glass-card {
+    @apply rounded border border-line bg-white/[0.045] shadow-card backdrop-blur transition duration-300;
+  }
+}
+
+@keyframes subtle-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
