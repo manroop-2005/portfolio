@@ -25,5 +25,8 @@ npm run start
 npm run lint
 ```
 
-Creator : Manroop Singh
-mail: manroopsingh2005a@gmail.com
+## Creator
+
+Designed and built with passion by **Manroop Singh**:
+- [Portfolio Website](https://portfolio-inky-eta-29.vercel.app/)
+- [manroopsingh2005a@gmail.com](mailto:manroopsingh2005a@gmail.com)
