@@ -1,4 +1,4 @@
-# Manroop Singh Portfolio
+# Manroop's Portfolio
 
 A modern personal portfolio website built with Next.js App Router, TypeScript, Tailwind CSS, and Framer Motion.
 
@@ -27,6 +27,6 @@ npm run lint
 
 ## Creator
 
-Designed and built with passion by **Manroop**:
+Designed and built with passion by **Manroop Singh**:
 - [Portfolio Website](https://portfolio-inky-eta-29.vercel.app/)
 - [manroopsingh2005a@gmail.com](mailto:manroopsingh2005a@gmail.com)
