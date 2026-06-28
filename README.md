@@ -1,4 +1,4 @@
-# Manroop's Portfolio
+# Manroop's Portfolio 
  
 A modern personal portfolio website built with Next.js App Router, TypeScript, Tailwind CSS, and Framer Motion.
 
